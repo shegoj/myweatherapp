@@ -1,22 +1,20 @@
+
 = Simple weather app
 
-== Getting started
+== About the app
+
+The app provides weather information about a geographical location in the world.
 
 
-You can execute the code using:
+== App Requirements
+```
+Java 1.8
+Maven
+Git
+```
+== To run the app
 
 ```
-mvn clean package [ to compile, test and package the code ]. 
-mvn spring-boot:run -Dapp.weather.locations=Nigeria/Lagos,Nigeria/Kano [ to execute the code ]
-```
-
-== Bugs
-
-Issues Found
-
-```
-NY does not work. Over to Dev to resolve
-```
-
-
-
+git clone https://github.com/shegoj/myweatherapp.git
+cd myweatherapp
+mvn spring-boot:run -Dapp.weather.locations=Nigeria/Lagos,Nigeria/Kano
