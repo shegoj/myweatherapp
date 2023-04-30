@@ -21,4 +21,4 @@ mvn spring-boot:run -Dapp.weather.locations=Nigeria/Lagos,Nigeria/Kano
 ```
 
 == Result 
-If all goes well, the app should be accessible on port 8080 on thr node.
+If all goes well, the app should be accessible on port 8080 on the node.
