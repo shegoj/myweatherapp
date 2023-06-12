@@ -10,6 +10,7 @@ The app provides weather information about a geographical location in the world.
 ```
 Java 1.8
 Maven
+
 Git
 ```
 == To run the app
